@@ -5,7 +5,7 @@
     End Sub
 
     Private Sub BtnBusiness_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles BtnBusiness.Click
-        MessageBox.Show("Correcte functionaliteit !")
+        AboutBox1.Show()
     End Sub
 
     Private Sub CheckBox1_CheckedChanged(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles CheckBox1.CheckedChanged

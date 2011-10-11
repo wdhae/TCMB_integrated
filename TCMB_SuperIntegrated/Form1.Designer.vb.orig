@@ -27,8 +27,11 @@ Partial Class Form1
         Me.lblTheTextBox = New System.Windows.Forms.Label
         Me.BtnBusiness = New System.Windows.Forms.Button
         Me.CheckBox1 = New System.Windows.Forms.CheckBox
-        Me.DateTimePicker1 = New System.Windows.Forms.DateTimePicker
+<<<<<<< HEAD
         Me.ProgressBar1 = New System.Windows.Forms.ProgressBar
+=======
+        Me.DateTimePicker1 = New System.Windows.Forms.DateTimePicker
+>>>>>>> Experimental
         Me.SuspendLayout()
         '
         'cmdTheButton
@@ -75,25 +78,32 @@ Partial Class Form1
         Me.CheckBox1.Text = "TheCheckBox"
         Me.CheckBox1.UseVisualStyleBackColor = True
         '
+<<<<<<< HEAD
         'ProgressBar1
-        'DateTimePicker1
         '
         Me.ProgressBar1.Location = New System.Drawing.Point(266, 93)
         Me.ProgressBar1.Name = "ProgressBar1"
         Me.ProgressBar1.Size = New System.Drawing.Size(100, 23)
         Me.ProgressBar1.TabIndex = 6
+=======
+        'DateTimePicker1
+        '
         Me.DateTimePicker1.Location = New System.Drawing.Point(105, 176)
         Me.DateTimePicker1.Name = "DateTimePicker1"
         Me.DateTimePicker1.Size = New System.Drawing.Size(200, 20)
         Me.DateTimePicker1.TabIndex = 6
+>>>>>>> Experimental
         '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(409, 363)
+<<<<<<< HEAD
         Me.Controls.Add(Me.ProgressBar1)
+=======
         Me.Controls.Add(Me.DateTimePicker1)
+>>>>>>> Experimental
         Me.Controls.Add(Me.CheckBox1)
         Me.Controls.Add(Me.BtnBusiness)
         Me.Controls.Add(Me.lblTheTextBox)
@@ -110,7 +120,10 @@ Partial Class Form1
     Friend WithEvents lblTheTextBox As System.Windows.Forms.Label
     Friend WithEvents BtnBusiness As System.Windows.Forms.Button
     Friend WithEvents CheckBox1 As System.Windows.Forms.CheckBox
+<<<<<<< HEAD
     Friend WithEvents ProgressBar1 As System.Windows.Forms.ProgressBar
+=======
     Friend WithEvents DateTimePicker1 As System.Windows.Forms.DateTimePicker
+>>>>>>> Experimental
 
 End Class
