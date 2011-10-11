@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "TCMB_SuperIntegrated", "TCMB_SuperIntegrated\TCMB_SuperIntegrated.vbproj", "{441F2CDB-EB61-4167-AA5B-C0C02B27E484}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{441F2CDB-EB61-4167-AA5B-C0C02B27E484}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{441F2CDB-EB61-4167-AA5B-C0C02B27E484}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{441F2CDB-EB61-4167-AA5B-C0C02B27E484}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{441F2CDB-EB61-4167-AA5B-C0C02B27E484}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
