@@ -27,6 +27,7 @@ Partial Class Form1
         Me.lblTheTextBox = New System.Windows.Forms.Label
         Me.BtnBusiness = New System.Windows.Forms.Button
         Me.MonthCalendar1 = New System.Windows.Forms.MonthCalendar
+        Me.CheckBox1 = New System.Windows.Forms.CheckBox
         Me.SuspendLayout()
         '
         'cmdTheButton
@@ -69,11 +70,22 @@ Partial Class Form1
         Me.MonthCalendar1.Name = "MonthCalendar1"
         Me.MonthCalendar1.TabIndex = 4
         '
+        'CheckBox1
+        '
+        Me.CheckBox1.AutoSize = True
+        Me.CheckBox1.Location = New System.Drawing.Point(187, 39)
+        Me.CheckBox1.Name = "CheckBox1"
+        Me.CheckBox1.Size = New System.Drawing.Size(94, 17)
+        Me.CheckBox1.TabIndex = 5
+        Me.CheckBox1.Text = "TheCheckBox"
+        Me.CheckBox1.UseVisualStyleBackColor = True
+        '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(409, 363)
+        Me.Controls.Add(Me.CheckBox1)
         Me.Controls.Add(Me.MonthCalendar1)
         Me.Controls.Add(Me.BtnBusiness)
         Me.Controls.Add(Me.lblTheTextBox)
@@ -90,5 +102,6 @@ Partial Class Form1
     Friend WithEvents lblTheTextBox As System.Windows.Forms.Label
     Friend WithEvents BtnBusiness As System.Windows.Forms.Button
     Friend WithEvents MonthCalendar1 As System.Windows.Forms.MonthCalendar
+    Friend WithEvents CheckBox1 As System.Windows.Forms.CheckBox
 
 End Class
