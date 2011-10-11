@@ -26,6 +26,7 @@ Partial Class Form1
         Me.TheTextBox = New System.Windows.Forms.TextBox
         Me.lblTheTextBox = New System.Windows.Forms.Label
         Me.BtnBusiness = New System.Windows.Forms.Button
+        Me.MonthCalendar1 = New System.Windows.Forms.MonthCalendar
         Me.SuspendLayout()
         '
         'cmdTheButton
@@ -55,18 +56,25 @@ Partial Class Form1
         '
         'BtnBusiness
         '
-        Me.BtnBusiness.Location = New System.Drawing.Point(105, 152)
+        Me.BtnBusiness.Location = New System.Drawing.Point(105, 133)
         Me.BtnBusiness.Name = "BtnBusiness"
         Me.BtnBusiness.Size = New System.Drawing.Size(133, 23)
         Me.BtnBusiness.TabIndex = 3
         Me.BtnBusiness.Text = "Busines button"
         Me.BtnBusiness.UseVisualStyleBackColor = True
         '
+        'MonthCalendar1
+        '
+        Me.MonthCalendar1.Location = New System.Drawing.Point(105, 168)
+        Me.MonthCalendar1.Name = "MonthCalendar1"
+        Me.MonthCalendar1.TabIndex = 4
+        '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(312, 271)
+        Me.ClientSize = New System.Drawing.Size(409, 363)
+        Me.Controls.Add(Me.MonthCalendar1)
         Me.Controls.Add(Me.BtnBusiness)
         Me.Controls.Add(Me.lblTheTextBox)
         Me.Controls.Add(Me.TheTextBox)
@@ -81,5 +89,6 @@ Partial Class Form1
     Friend WithEvents TheTextBox As System.Windows.Forms.TextBox
     Friend WithEvents lblTheTextBox As System.Windows.Forms.Label
     Friend WithEvents BtnBusiness As System.Windows.Forms.Button
+    Friend WithEvents MonthCalendar1 As System.Windows.Forms.MonthCalendar
 
 End Class
