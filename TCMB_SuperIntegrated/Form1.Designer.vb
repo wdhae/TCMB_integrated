@@ -30,6 +30,7 @@ Partial Class Form1
         Me.DateTimePicker1 = New System.Windows.Forms.DateTimePicker
         Me.ProgressBar1 = New System.Windows.Forms.ProgressBar
         Me.ListBox1 = New System.Windows.Forms.ListBox
+        Me.TextBox1 = New System.Windows.Forms.TextBox
         Me.SuspendLayout()
         '
         'cmdTheButton
@@ -98,11 +99,19 @@ Partial Class Form1
         Me.ListBox1.Size = New System.Drawing.Size(120, 95)
         Me.ListBox1.TabIndex = 7
         '
+        'TextBox1
+        '
+        Me.TextBox1.Location = New System.Drawing.Point(266, 133)
+        Me.TextBox1.Name = "TextBox1"
+        Me.TextBox1.Size = New System.Drawing.Size(100, 20)
+        Me.TextBox1.TabIndex = 8
+        '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(409, 363)
+        Me.Controls.Add(Me.TextBox1)
         Me.Controls.Add(Me.ListBox1)
         Me.Controls.Add(Me.ProgressBar1)
         Me.Controls.Add(Me.DateTimePicker1)
@@ -125,5 +134,6 @@ Partial Class Form1
     Friend WithEvents ProgressBar1 As System.Windows.Forms.ProgressBar
     Friend WithEvents DateTimePicker1 As System.Windows.Forms.DateTimePicker
     Friend WithEvents ListBox1 As System.Windows.Forms.ListBox
+    Friend WithEvents TextBox1 As System.Windows.Forms.TextBox
 
 End Class
