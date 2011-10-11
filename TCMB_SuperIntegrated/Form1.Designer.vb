@@ -26,8 +26,8 @@ Partial Class Form1
         Me.TheTextBox = New System.Windows.Forms.TextBox
         Me.lblTheTextBox = New System.Windows.Forms.Label
         Me.BtnBusiness = New System.Windows.Forms.Button
-        Me.MonthCalendar1 = New System.Windows.Forms.MonthCalendar
         Me.CheckBox1 = New System.Windows.Forms.CheckBox
+        Me.DateTimePicker1 = New System.Windows.Forms.DateTimePicker
         Me.SuspendLayout()
         '
         'cmdTheButton
@@ -64,12 +64,6 @@ Partial Class Form1
         Me.BtnBusiness.Text = "Busines button"
         Me.BtnBusiness.UseVisualStyleBackColor = True
         '
-        'MonthCalendar1
-        '
-        Me.MonthCalendar1.Location = New System.Drawing.Point(105, 168)
-        Me.MonthCalendar1.Name = "MonthCalendar1"
-        Me.MonthCalendar1.TabIndex = 4
-        '
         'CheckBox1
         '
         Me.CheckBox1.AutoSize = True
@@ -80,13 +74,20 @@ Partial Class Form1
         Me.CheckBox1.Text = "TheCheckBox"
         Me.CheckBox1.UseVisualStyleBackColor = True
         '
+        'DateTimePicker1
+        '
+        Me.DateTimePicker1.Location = New System.Drawing.Point(105, 176)
+        Me.DateTimePicker1.Name = "DateTimePicker1"
+        Me.DateTimePicker1.Size = New System.Drawing.Size(200, 20)
+        Me.DateTimePicker1.TabIndex = 6
+        '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(409, 363)
+        Me.Controls.Add(Me.DateTimePicker1)
         Me.Controls.Add(Me.CheckBox1)
-        Me.Controls.Add(Me.MonthCalendar1)
         Me.Controls.Add(Me.BtnBusiness)
         Me.Controls.Add(Me.lblTheTextBox)
         Me.Controls.Add(Me.TheTextBox)
@@ -101,7 +102,7 @@ Partial Class Form1
     Friend WithEvents TheTextBox As System.Windows.Forms.TextBox
     Friend WithEvents lblTheTextBox As System.Windows.Forms.Label
     Friend WithEvents BtnBusiness As System.Windows.Forms.Button
-    Friend WithEvents MonthCalendar1 As System.Windows.Forms.MonthCalendar
     Friend WithEvents CheckBox1 As System.Windows.Forms.CheckBox
+    Friend WithEvents DateTimePicker1 As System.Windows.Forms.DateTimePicker
 
 End Class
