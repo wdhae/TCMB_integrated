@@ -28,6 +28,7 @@ Partial Class Form1
         Me.BtnBusiness = New System.Windows.Forms.Button
         Me.MonthCalendar1 = New System.Windows.Forms.MonthCalendar
         Me.CheckBox1 = New System.Windows.Forms.CheckBox
+        Me.ProgressBar1 = New System.Windows.Forms.ProgressBar
         Me.SuspendLayout()
         '
         'cmdTheButton
@@ -80,11 +81,19 @@ Partial Class Form1
         Me.CheckBox1.Text = "TheCheckBox"
         Me.CheckBox1.UseVisualStyleBackColor = True
         '
+        'ProgressBar1
+        '
+        Me.ProgressBar1.Location = New System.Drawing.Point(266, 93)
+        Me.ProgressBar1.Name = "ProgressBar1"
+        Me.ProgressBar1.Size = New System.Drawing.Size(100, 23)
+        Me.ProgressBar1.TabIndex = 6
+        '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(409, 363)
+        Me.Controls.Add(Me.ProgressBar1)
         Me.Controls.Add(Me.CheckBox1)
         Me.Controls.Add(Me.MonthCalendar1)
         Me.Controls.Add(Me.BtnBusiness)
@@ -103,5 +112,6 @@ Partial Class Form1
     Friend WithEvents BtnBusiness As System.Windows.Forms.Button
     Friend WithEvents MonthCalendar1 As System.Windows.Forms.MonthCalendar
     Friend WithEvents CheckBox1 As System.Windows.Forms.CheckBox
+    Friend WithEvents ProgressBar1 As System.Windows.Forms.ProgressBar
 
 End Class
