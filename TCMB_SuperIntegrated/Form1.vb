@@ -5,6 +5,6 @@
     End Sub
 
     Private Sub BtnBusiness_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles BtnBusiness.Click
-        Throw New Exception("This button has not been tested properly")
+        MessageBox.Show("Correcte functionaliteit !")
     End Sub
 End Class
