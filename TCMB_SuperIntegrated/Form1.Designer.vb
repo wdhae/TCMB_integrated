@@ -27,6 +27,7 @@ Partial Class Form1
         Me.lblTheTextBox = New System.Windows.Forms.Label
         Me.BtnBusiness = New System.Windows.Forms.Button
         Me.CheckBox1 = New System.Windows.Forms.CheckBox
+        Me.RadioButton1 = New System.Windows.Forms.RadioButton
         Me.DateTimePicker1 = New System.Windows.Forms.DateTimePicker
         Me.ProgressBar1 = New System.Windows.Forms.ProgressBar
         Me.ListBox1 = New System.Windows.Forms.ListBox
@@ -69,15 +70,15 @@ Partial Class Form1
         '
         'CheckBox1
         '
-        Me.CheckBox1.AutoSize = True
-        Me.CheckBox1.Location = New System.Drawing.Point(187, 39)
-        Me.CheckBox1.Name = "CheckBox1"
-        Me.CheckBox1.Size = New System.Drawing.Size(94, 17)
-        Me.CheckBox1.TabIndex = 5
-        Me.CheckBox1.Text = "TheCheckBox"
-        Me.CheckBox1.UseVisualStyleBackColor = True
+        Me.RadioButton1.AutoSize = True
+        Me.RadioButton1.Location = New System.Drawing.Point(105, 213)
+        Me.RadioButton1.Name = "RadioButton1"
+        Me.RadioButton1.Size = New System.Drawing.Size(90, 17)
+        Me.RadioButton1.TabIndex = 4
+        Me.RadioButton1.TabStop = True
+        Me.RadioButton1.Text = "RadioButton1"
+        Me.RadioButton1.UseVisualStyleBackColor = True
         '
-        'DateTimePicker1
         '
         Me.DateTimePicker1.Location = New System.Drawing.Point(105, 176)
         Me.DateTimePicker1.Name = "DateTimePicker1"
